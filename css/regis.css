@@ -12,13 +12,15 @@
     --font-medium: 500;
 }
 
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body, input, button{
+body,
+input,
+button {
     font-size: var(--normal-font-size);
     font-family: var(--body-font);
 }
@@ -27,12 +29,12 @@ body {
     color: var(--white-color);
 }
 
-input, button {
+button {
     border: none;
     outline: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -88,7 +90,7 @@ img {
     grid-template-columns: max-content 1fr;
     align-items: center;
     column-gap: .75rem;
-    border-bottom: 2px solid var(--white-color);
+    /* border-bottom: 2px solid var(--white-color); */
 }
 
 .login__icon,
@@ -101,20 +103,9 @@ img {
     padding-block: .8rem;
     background: none;
     color: var(--white-color);
-    position: relative;
-    z-index: 1;
-}
-
-.login__box-input {
-    position: relative;
-}
-
-.login__label {
-    position: absolute;
-    left: 0;
-    top: 13px;
-    font-weight: var(--font-medium);
-    transition: top .3s, font-size .3s;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
 }
 
 .login__eye {
@@ -125,7 +116,7 @@ img {
     cursor: pointer;
 }
 
-.login__box:nth-child(2) input{
+.login__box:nth-child(2) input {
     padding-right: 1.8rem;
 }
 
@@ -137,13 +128,13 @@ img {
 }
 
 .login__check {
-    margin-bottom: 1.5rem ;
+    margin-bottom: 1.5rem;
 }
 
 .login__check-label,
 .login__forgot,
 .login__register {
-    font-size: var(--small-font-size);  
+    font-size: var(--small-font-size);
 }
 
 .login__check-group {
@@ -179,7 +170,7 @@ img {
 
 .login__register a {
     color: var(--white-color);
-    font-weight: var(--font-medium); 
+    font-weight: var(--font-medium);
 }
 
 .login__register a:hover {
@@ -191,16 +182,18 @@ img {
     justify-content: center;
 }
 
-@media screen and (min-width: 576px){
-    .login{
+@media screen and (min-width: 576px) {
+    .login {
         justify-content: center;
     }
-    .login__form{
+
+    .login__form {
         width: 432px;
         padding: 4rem 3rem 3.5rem;
         border-radius: 1.5rem;
-    }    
-    .login__title{
+    }
+
+    .login__title {
         font-size: 2rem;
     }
 }
@@ -212,4 +205,43 @@ img {
 .login__button {
     border: 2px solid var(--white-color);
     border-radius: 1rem;
+}
+
+.input-effect ~ .login__label {
+    position: absolute;
+    left: 5em;
+    width: 100%;
+    /* top: 9px; */
+    color: var(--white-color);
+    transition: 0.3s;
+    z-index: -1;
+    letter-spacing: 0.5px;
+}
+
+.input-effect {
+    border: 0;
+    padding: 4px 0;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3399FF;
+    transition: 0.4s;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.input-effect:focus ~ .login__label {
+    transform: translateY(-1.5em);
+    /* font-size: 12px; */
+    color: #3399FF;
+    transition: 0.3s;
 }

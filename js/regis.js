@@ -1,9 +1,9 @@
-const showHiddenPass = (loginPass, loginEye) =>{
+const showHiddenPass = (loginPass, loginEye) => {
     const input = document.getElementById(loginPass),
         iconEye = document.getElementById(loginEye)
 
-    iconEye.addEventListener('click', () =>{
-        if(input.type === 'password') {
+    iconEye.addEventListener('click', () => {
+        if (input.type === 'password') {
             input.type = 'text'
 
             iconEye.classList.add('ri-eye-line')
@@ -18,8 +18,8 @@ const showHiddenPass = (loginPass, loginEye) =>{
 }
 
 
-showHiddenPass('register-pass','register-eye')
-showHiddenPass('register-confirm-pass','register-confirm-eye')
+showHiddenPass('register-pass', 'register-eye')
+showHiddenPass('register-confirm-pass', 'register-confirm-eye')
 
 // document.querySelectorAll(".login__input").forEach((element,value,parent) => {
 //     element.addEventListener("focus",function(){
@@ -29,10 +29,20 @@ showHiddenPass('register-confirm-pass','register-confirm-eye')
 //     })
 // });
 
-document.getElementById('email_input').addEventListener("input", function(){
-    console.log("no vo day roi ne")
-})
+function showLabel() {
+    const input = document.getElementById("email-input");
+    const label = document.getElementById("email-label");
+    if (input.value === "") {
+        label.style.transform = "translate(10px, 10px)";
+    } else {
+        label.style.transform = "translate(10px, -20px)";
+    }
+}
 
-// document.querySelectorAll(".login__input")[0].addEventListener("focus",function(){
-//     console.log("hjh")
-// })
+function hideLabel() {
+    const input = document.getElementById("email-input");
+    const label = document.getElementById("email-label");
+    if (input.value === "") {
+        label.style.transform = "translate(10px, -20px)";
+    }
+}
