@@ -98,19 +98,24 @@ nav button {
 }
 
 .email-signup {
-    background: #fff;
-    border-radius: 4px;
+    background: transparent;
     display: flex;
     align-items: center;
     margin-top: 30px;
     overflow: hidden;
+    justify-content: center;
 }
 
 .email-signup input {
     flex: 1;
-    border: 0;
-    outline: 0;
+    /* outline: 0; */
     margin-left: 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    height: 56px;
+    border-radius: 5px;
+    max-width: 420px;
+    margin-right: 10px;
 }
 
 .email-signup button{
@@ -121,6 +126,7 @@ nav button {
     font-size: 16px;
     cursor: pointer;
     padding: 15px 30px; 
+    border-radius: 5px;
 }
 
 .features {
@@ -359,3 +365,4 @@ input[type="radio"] {
         font-size: 22px;
     }
 }
+

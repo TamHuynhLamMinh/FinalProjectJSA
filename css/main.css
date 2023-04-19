@@ -97,8 +97,8 @@ body {
 
 .banner-button-1 {
   cursor: pointer;
-  background-color: #111;
-  color: #fff;
+  background-color: #fff;
+  color: #111;
   outline: none;
   border: none;
   font-weight: 700;
@@ -154,4 +154,12 @@ body {
 
 .img-container img {
   height: 80vh;
+}
+
+#play {
+  margin-right: 5px;
+}
+
+#information {
+  margin-right: 5px;
 }
