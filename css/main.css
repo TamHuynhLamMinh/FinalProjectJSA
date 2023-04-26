@@ -9,6 +9,7 @@ body {
 }
 
 .row__poster {
+
   width: 100%;
   object-fit: contain;
   max-height: 100px;
@@ -30,7 +31,7 @@ body {
 .row {
   background-color: #111;
   color: #fff;
-  margin-left: 20px;
+  padding: 0px 40px;
 }
 
 .row__posters::-webkit-scrollbar {
@@ -54,6 +55,7 @@ body {
   object-fit: contain;
   height: 90vh;
   position: relative;
+  z-index: 0;
   /* position: absolute;
     right: -6%;
     width: 103%; */
@@ -171,3 +173,40 @@ body {
 #information {
   margin-right: 5px;
 }
+
+.banner-button:hover{
+  color: #000;
+  background-color: #fff;
+  transition: all 0.2s;
+}
+
+.banner-fadebutton {
+  margin-top: 145px;
+  height: 7.4rem;
+  background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61), #111);
+}
+
+.nav-logo {
+  width: 80px;
+  /* object-fit: contain; */
+  z-index: 100;
+}
+
+.nav-avatar {
+  width: 30px;
+  object-fit: contain;
+}
+
+.nav {
+  position: fixed;
+  left: 12px;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
