@@ -372,3 +372,10 @@ header {
     border-bottom: 6px solid #333;
 }
 
+input {
+    color: #fff;
+}
+
+.dropdown {
+    position: relative;
+}

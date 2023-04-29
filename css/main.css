@@ -193,8 +193,10 @@ body {
 }
 
 .nav-avatar {
-  width: 30px;
+  width: 32px;
   object-fit: contain;
+  margin-right: 10px;
+  border-radius: 5px;
 }
 
 .nav {
@@ -210,3 +212,29 @@ body {
   transition: all 0.5s;
 }
 
+path {
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  fill: currentColor;
+}
+
+.searchTab {
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  height: 32px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.notification-menu {
+  cursor: pointer;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  height: 32px;
+}
