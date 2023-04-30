@@ -18,32 +18,26 @@ const showHiddenPass = (loginPass, loginEye) => {
 }
 
 
-showHiddenPass('register-pass', 'register-eye')
-showHiddenPass('register-confirm-pass', 'register-confirm-eye')
+const inputs = document.querySelectorAll("input");
 
-// document.querySelectorAll(".login__input").forEach((element,value,parent) => {
-//     element.addEventListener("focus",function(){
-//         console.log("adada")
-//         console.log(this.parentNode.querySelectorAll(".login__label")[0])
+inputs.forEach((input) => {
+    const label = input.nextElementSibling;
 
-//     })
-// });
+    input.addEventListener("focus", () => {
+        label.style.top = "0px";
+        label.style.bottom = "10px";
+        label.style.left = "20px";
+        label.style.fontSize = "16px";
+        label.style.opacity = "1";
+    });
 
-function showLabel() {
-    const input = document.getElementById("email-input");
-    const label = document.getElementById("email-label");
-    if (input.value === "") {
-        label.style.transform = "translate(10px, 10px)";
-    } else {
-        label.style.transform = "translate(10px, -20px)";
-    }
-}
-
-function hideLabel() {
-    const input = document.getElementById("email-input");
-    const label = document.getElementById("email-label");
-    if (input.value === "") {
-        label.style.transform = "translate(10px, -20px)";
-    }
-}
-
+    input.addEventListener("blur", () => {
+        if (input.value === "") {
+            label.style.top = "18px";
+            label.style.bottom = "initial";
+            label.style.left = "20px";
+            label.style.fontSize = "initial";
+            label.style.opacity = "initial";
+        }
+    });
+});
