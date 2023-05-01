@@ -29,7 +29,7 @@ body {
 }
 
 .row {
-  background-color: #111;
+  background-color: #000;
   color: #fff;
   padding: 0px 40px;
 }
@@ -223,7 +223,8 @@ path {
   background-color: transparent;
   color: #fff;
   border: none;
-  height: 32px;
+  font-size: 25px;
+  margin-right: 18px;
 }
 
 .nav-container {
@@ -236,5 +237,86 @@ path {
   background-color: transparent;
   color: #fff;
   border: none;
-  height: 32px;
+  font-size: 25px;
+  margin-right: 18px;
+}
+
+.nav {
+  background-image: linear-gradient(180deg
+  ,rgba(0,0,0,.7)10%,transparent);
+}
+
+.tabbed-primary-navigation {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.current-active {
+  text-decoration: none;
+  color: #fff;
+}
+
+li {
+  margin-right: 18px;
+}
+
+.nav-container-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer {
+  padding: 50px 15% 10px;
+  color: #777;
+  background: #000;
+  color: #fff;
+}
+
+.footer h2 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.footer .col {
+  flex-basis: 25%;
+  flex-grow: 1;
+  margin-bottom: 20px;
+}
+
+.footer .col a {
+  display: block;
+  text-decoration: none;
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 10px; 
+}
+
+.footer .row {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding: 10px 0;  
+}
+
+.footer .language-btn {
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 3px; 
+}
+
+.copyright-txt {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 10px; 
+}
+
+.language-btn {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    padding: 7px 10px;
 }
