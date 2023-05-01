@@ -142,7 +142,6 @@ body {
 .nav-avatar {
   width: 32px;
   object-fit: contain;
-  margin-right: 10px;
   border-radius: 5px;
 }
 
@@ -266,4 +265,60 @@ li {
     background: transparent;
     border: 1px solid #fff;
     padding: 7px 10px;
+}
+
+.ri-arrow-down-s-fill {
+  color: #fff;
+  width: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.ri-arrow-down-s-fill::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 50%;
+  animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.dropdown-area {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content div {
+  min-width: 100px;
+  cursor: pointer;
+  display: block;
+  border: 1px solid #fff;
+  padding: 7px 10px;
+  color: #fff;
+  border-radius: 4px;
+  margin-left: 10px;
+  font-size: 12px;
+  background: transparent;
+}
+
+.dropdown-area:hover .dropdown-content {
+  display: block;
 }

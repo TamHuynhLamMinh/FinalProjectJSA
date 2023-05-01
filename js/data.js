@@ -206,3 +206,30 @@ let movie = {
     ]
 }
 
+const movies = movie.data;
+
+    // Get the container element
+    const container = document.querySelector('.row');
+
+    // Loop through the movie data and generate HTML elements
+    movies.forEach(movie => {
+      // Create a movie item element
+      const movieItem = document.createElement('div');
+      movieItem.classList.add('movie-item');
+
+      // Create an image element
+      const image = document.createElement('img');
+      image.src = movie.image;
+      image.alt = movie.name;
+
+      // Create a heading element for the movie name
+      const heading = document.createElement('h3');
+      heading.textContent = movie.name;
+
+      // Append the image and heading to the movie item
+      movieItem.appendChild(image);
+      movieItem.appendChild(heading);
+
+      // Append the movie item to the container
+      container.appendChild(movieItem);
+    });
