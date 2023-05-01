@@ -38,6 +38,7 @@ nav {
 
 nav button {
   border: 0;
+  min-width: 100px;
   outline: 0;
   background: #db0001;
   color: #fff;
@@ -376,6 +377,30 @@ input {
     color: #fff;
 }
 
-.dropdown {
+.dropdown-area {
     position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content div {
+    min-width: 100px;
+    cursor: pointer;
+    display: block;
+    border: 1px solid #fff;
+    padding: 7px 10px;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 12px;
+    background: transparent;
+}
+
+.dropdown-area:hover .dropdown-content {
+    display: block;
 }
