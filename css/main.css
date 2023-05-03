@@ -9,7 +9,6 @@ body {
 }
 
 .row__poster {
-
   width: 100%;
   object-fit: contain;
   max-height: 100px;
@@ -58,13 +57,13 @@ body {
   height: 100%;
 }
 
-.banner h1 {
+.banner h3 {
   position: absolute;
   top: 50%;
   left: 5%;
   transform: translateY(-50%);
   color: white;
-  font-size: 3rem;
+ /* font-size: 3rem;*/
   z-index: 2;
   text-align: left;
 }
@@ -134,9 +133,10 @@ body {
 }
 
 .nav-logo {
-  width: 80px;
+  width: 100px;
   /* object-fit: contain; */
   z-index: 100;
+  margin-bottom: 10px;
 }
 
 .nav-avatar {
@@ -152,10 +152,10 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
   z-index: 1;
   transition-timing-function: ease-in;
   transition: all 0.5s;
+  padding: 20px;
 }
 
 path {
@@ -171,6 +171,7 @@ path {
   border: none;
   font-size: 25px;
   margin-right: 18px;
+  transition: background-color 0.3s ease;
 }
 
 .nav-container {
@@ -197,6 +198,7 @@ path {
   list-style-type: none;
   padding: 0;
   margin-left: 20px;
+  width: 800px;
 }
 
 .current-active {
@@ -321,4 +323,105 @@ li {
 
 .dropdown-area:hover .dropdown-content {
   display: block;
+}
+
+.banner-overlay img {
+  width: 455px;
+  height: 185px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* #search-bar {
+  background-color: black;
+} */
+
+.searchTab.clicked {
+  background-color: #000;
+  border: 1px solid white;
+}
+
+#search-bar {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  width: 250px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  height: 33px;
+  outline: none;
+}
+
+.searchTab {
+  height: 36px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#search-bar {
+ /* text-align: center; */
+  line-height: inherit; 
+ /* vertical-align: middle; */
+}
+
+.nav-element input {
+  color: #fff;
+}
+
+.notification-menu {
+  width: 37px;
+  height: 36px;
+}
+
+.banner-overlay img {
+  position: absolute;
+  left: 60px;
+  z-index: 1;
+  top: 0px;
+}
+
+.poster-container {
+  position: relative;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 aspect ratio (h/w * 100%) */
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.close-button {
+  margin-top: 10px;
 }

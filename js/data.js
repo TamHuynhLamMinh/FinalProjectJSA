@@ -2,103 +2,103 @@ let movie = {
     data: [
         {
             name: "Hunger",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRYFcZB9BZx01c1S46-rHUmcwQSQWYCuhZW2WsxR3pj6xauaVjrr67mL2g_dCjYwdtnl-nfgVAHYNKM6NOF1A4dITrS8w03mT3jNwUiaPkUE9G_9ZJ0QJkCjW9w3tlTGtT9imw.jpg?r=938",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABTn6pMesLVSIKbOY1vtwDJA_6TcWkP2XIdLMLd5VL5FRtOeQ3_z-vSndHDgUI4FdY1Tbv8Rt8f7dJxzU81EeSgA2UeJkXM_00ef4zEbKW8vCSLS_yxCvhybJwyrL9AKhEFHx.jpg?r=b6c",
             category: "original"
         },
 
         {
             name: "13 Reasons Why",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRDXroUCGLt0lKZxPqIfRH2GSgmhrlWRSGzpXiSdhGq2Th8W6JkBVp3KhEj3hI78NILPkpulgPh7Wnxms5JzTMkkCHqu1ZUq5xIpFL1HGDgjhbwe7HsAYK1H9fPsTzmLzGqZhA.jpg?r=579",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABf0UP6BAU9c9r6Y7MQRpRQUlzHrIIYIlf4FGmxUr7p52uDO6QM1yp1pUxGImM2V59HK1vAz8oVGhqj1OXTgGppUioA2YX9OyNYw.jpg?r=0cb¡",
             category: "original"
         },
 
         {
             name: "Mine",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXfWhVjZ1mS92O2Oyh09nYAgq0DSXt3gNpqHw8yEbXL5OtNnVnekLmp3C6PVYPUmQlCBu1p34iNAIQ0f1Ero3q2Vd51sVDKNVhp7B687cb1XS0DHa0fFfW2640Rx27uCd3I99g.jpg?r=478",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfKaabHvbDuu6_zuNXwsVuwZx4mvP3nZXSt5OyH3NkoklDX5HOyOSihJOq5MEdWWOF04CZR9r_xv1mssKWwzgZ90lr9RFb-IF6rdrop_1KgH598cbhK9GcErHLIuusvhlu2q.jpg?r=3b5",
             category: "original"
         },
 
         {
             name: "Law School",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfVYow6ehaZl04Lu_yAjbIGAwjYQY4GsnJOzsEwTVD24ug-NScTQTkGy4KhTONMA5wwhAvJu1krNABIsdyVKIuakS8D879WTjoepE5JLLIFGGcp0g0WMmM_xuuW_HDPQz39G6A.jpg?r=171",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQP6ZsolhrHCJoi7ZBpZmSeAA_SaTrgTd-hniz3Zty4yp_dcNmFQ1dV5RlhUUgHvDEORyLtOMQOwfRmBDxvnOSXoX6lgJWrm28FQKrflI_D0JFErmpWyeLYpmpf4BrXODq2H.jpg?r=814",
             category: "original"
         },
 
         {
             name: "Taxi Driver",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABfVYow6ehaZl04Lu_yAjbIGAwjYQY4GsnJOzsEwTVD24ug-NScTQTkGy4KhTONMA5wwhAvJu1krNABIsdyVKIuakS8D879WTjoepE5JLLIFGGcp0g0WMmM_xuuW_HDPQz39G6A.jpg?r=171",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbxCsd5dOOO1ORNP9KUmGH0We6sA6yU0T82MnIWTrfRsMJ9innyqhU6TTxniFma62Hrc0r5pnqCL2XWZhYNFeV4yTlQyKPrwEhwosALAcNp0fYJMYn0fAObWyjue1fzyihO3.jpg?r=abd",
             category: "original"
         },
 
         {
             name: "My Name",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYsjIKF83oEnhuwI9n1JTDMAmG7RaIWIFn0j2m_xPEqHzyksNwqxnSRoRIO5jMmyM81hD9sd0FdLCKrsPyvpWt7V1UaxriOmpVOh.jpg?r=314",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbjR9Z1tVdqAm3OUIFh2eYUAYGNRrLMvF06czXlIAJyGxCRbbPhhZoY_uvIuAfjpGClLVwoS9NNH8LB8pSWvo_exR53Z9UykNTNrxfTTRmzrVDnhYIEAQEMM3PaSxQlBP2Ra.jpg?r=0c8",
             category: "original"
         },
 
         {
             name: "Remarriage & Desires",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWg0ZyRAB9Qd9_O5xyhorUOSsrRafbHUYnEu2Ssuc7rvBqD0Joxmm_XOj4zcm0dU_fHXDfr7ij-px6ODZCn6fd357rnqq3JT0CCnQ4QBku9TZhhictgIAgQ_hdT79hTqR4aL8Q.jpg?r=c71",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABW7JEc4CdufgKxUphTZL70uKt7H9fEOoiSTykZgtdqBm-8kCP_VuOH4Lhg6qu446uCKhyQfJ93-hTDFpK1GRfrb_u-_AY2SC6QY.jpg?r=e09",
             category: "original"
         },
 
         {
             name: "Remarriage & Desires",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABT8BZhMxklmCrIiTP9aU2nRgjJOHRwOtrseHpbc921Jf7bJPBZtayk9q5R2l2YM8dwXv8x8Ov0jOO1yWADhH6obA-RJPvtOriaZY3rAcPHu7sz8Dgkn6AEz_Tudy8DKQ93geNg.jpg?r=e5b",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRhBJdl67g4kCGCyXKf2Oe236ALbqSaoyqZrS7977lQzRAZc-HD7QjuvAtIIpbbuBNBvJbaaNLFOYKK0tytrl6szJT9_WdQoGx8.jpg?r=12e",
             category: "original"
         },
 
         {
             name: "Extracurricular ",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABb315saNYKTjwZ2iZ7x4BQhmmRlAlCeABGp6nuZhnz2o4IZqSgf1_h0D2GtsLBrp3M6he53nBwi86uylKVTthwDEnUKGEOvmBRBFjK6RPD-oa2eICtPd0oOaFP9jv3MIRX3l-g.jpg?r=1f9",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABX1zGpvKzgAOyjU8-q_tbawY5Ro1xbIcilXlpp7D9EnIfBPqnIYH8GgmdtMvHYjpUKrojgwp7aSfobJUGswR6bs92YzCz7Sn5qE.jpg?r=3e6",
             category: "original"
         },
 
         {
             name: "Wednesday",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWAJSAFzlJdOuv3_snQnw4OH_1vJtwRT1OMdvTMm5gnR56Ng0Gxo6MUtSL6zq4zr32yxCfaDT2oDhwrnYhv6aUXXiyJ1189gchRTk677wNHIi1Nf2gYqVkcCqbENJPTbIewEBA.jpg?r=082",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABYr-fSl5plCMPyyfiTmRdX65tD6zhJeihjNhlxcFdtoS_MXCsCN9iM2tUrYehL4I3eDBvExZuT2OO-5FlNaDW2NmxQFSAkr4_RA.jpg?r=bbe",
             category: "original"
         },
 
         {
             name: "Sabrina",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWqis8Fb33LomFkzOoP36BsKPybFgu_UblglwNvoAp23an4F8OuMWdkj2l-q5HrnbQGo6S7uXP9gKfLZX4dbDhVwGDHGXwch2b1sC70Rw8_-G4gnOgktpHNm-eYPS67imQ4bxg.jpg?r=6f5",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABcG8CfayUkzQURT-Gb9dFxKlvp0vdcrHNup9YHx4ztQkecUKQrcSHxM1ZdmV2m8NTn0dwsj8IIL7ZAhr3-dP9ztQvZb1WgqKeKE.jpg?r=15f",
             category: "original"
         },
 
         {
             name: "Enola Holmes",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABW6JB8l5MbuBKUGhXX9PrlFptRrcSr_e2GIq_xEqx0iGnfdwekczAeuYHm7nz6ZZPw311oSd7dJQnsC34uh0RhhGB9wBd1IlRiTTYeWgM7rFxzrFzSel_vMcamjY2i_4oZgmEQ.jpg?r=ffd",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZsI6Ru1OfghvQapDxvCbFf9xBnhNqz2I7JGX_MPRmmZKITQSip-NyRwNAW20BwYuchL7g5nGPh6k0vTP0G2iuVPzSkagNgWVg-JMyGXqAdXrWM9yHJRxl9nXEouqk34qmaG.jpg?r=66a",
             category: "original"
         },
 
         {
             name: "The School for Good and Evil",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABQ7uINPt_UdhB5-iJ-D7qbgS4vGrFkTqBrxFCFpbZjNhWYeQhdQP7T1_L7VlkD1HIJDe2o6vt0f1XxmxMguC5n_g-uubqX5dhDxu8ujdXASAU6K3K9aEa3nnf_8EzSmoS58XgQ.jpg?r=aea",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABdAgjPcTC_Fxg8rX1petKNTfpcNfnb92OIu9mRhFQthGk5Iy18VWUA0DTCCmT_JVdCk49P4zPRDmE72chQKj7UwkW_mIOtycc30.jpg?r=3be",
             category: "original"
         },
 
         {
             name: "The Umbrella Academy",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABWAMWJgf-kl6QDejmohK6xY2TMfbLeCP77pst4KTeWpMdoeGnvFCYpSjVBLbuSwVEcAIdwmgOna9xD7eXFlBVKsoHcMjXpFrbheH3NPIDpcDIL7kbWLO7k_M1N3cprXpJE_AYA.jpg?r=d60",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZaxxuNrLSy0eEouTeQ5VQz5bMCC5fmRlBiAsFTac5IVpRyRIEnAHRLecCOMc4Ez-tMvglha7UfuM8IlwFthiq5sRYtKyv_b1jeoNb1BoFz7f8wvxwuFU2Svn3O8Nc3js4Cs.jpg?r=c24",
             category: "original"
         },
 
         {
             name: "Wendell & Wild",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABUf0xHRnsgTYk8CU8FUAr7e0-RcodWFc1OSGhuVrHYuG2cRwctOTq7dF6xhXHCPfDOquIzP0QtVIpxw9VdnWOCdCUxWCgbbiJl2otHa2zO_0ep9YUWy3UHm7aIAYNYueS2nbkw.jpg?r=481",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABb9UkYSANN4voDOEfLGicEGC7LhNC1cwTSxVvVFxptqYzFUPpsPOE-SkbnmaJU5s3-nPcr-dY1_EbpRi8CgN5tkvLnKzcv2Sc88.jpg?r=185",
             category: "original"
         },
 
         {
             name: "I Am Not Okay With This",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZ0WrQ582NBH8uM0ur3wCRStqB-pwsnyNEBBX7rb33mW1c4KF1eBBZV4O8LSEWC46tGoKtmbjgHcpfQN2W0KDgVzQBhww_onE3rNn6yvcvpvDCq0ROG0nUySz0RD0wgfMLURtw.jpg?r=052",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABZ_WtnwXD9cfZT06uwkKlfWNYAw1mSJsggr-K3Ovi7UH2u8zmURiVwX0p2-N3-Svofqe2PK8a_p2rv6SJPSvsx2pSn9FAmd_8ZU.jpg?r=f9a",
             category: "original"
         },
 
         {
             name: "Moxie",
-            image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABXaKAloBq4605i-WaZK9W9aadcq_wNnum5tj7qTfmAHzAYpYBd2FNP7RymCT7ihABCN0TYIW3zJ3hvcpA77zb6Jz2NacJQxnxRBqMiz0UlznQNDCzTFlH8G7qDEpMxYSsMedYQ.jpg?r=48a",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSweXzmqHejitI1S6Y_RrL1mihjDdoqSo48Thvbkcr5HieotKt0p8uaTPC46TrgRgZ_eAkRSL03GTylu1n5roiBw190Xv1wsd3Hv_mGzrSTZV_p-wSVVJD45wZno1Y3GnjUK.jpg?r=af7",
             category: "original"
         },
 
@@ -203,33 +203,41 @@ let movie = {
             image: "https://occ-0-395-325.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABbSFuDgFOkbI0DtXHiwFVlKfGyN1ZEE-01NMelW8vI59aNjd53mTxJ9cVOlVgjW695Lie8azhuMTlcsiEtuqCnxydm3ubxlA1uBC.jpg?r=0c5",
             category: "top rated"
         },
+
+        {
+            name: "SPYxFAMILY",
+            image: "https://occ-0-325-58.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABSweXzmqHejitI1S6Y_RrL1mihjDdoqSo48Thvbkcr5HieotKt0p8uaTPC46TrgRgZ_eAkRSL03GTylu1n5roiBw190Xv1wsd3Hv_mGzrSTZV_p-wSVVJD45wZno1Y3GnjUK.jpg?r=af7",
+            category: "90-Minute Kids Movies"
+        },
     ]
 }
 
-const movies = movie.data;
+let container = document.getElementById("movie-container");
 
-    // Get the container element
-    const container = document.querySelector('.row');
+// Loop through the movie data and create HTML elements
+movie.data.forEach(function(movieItem) {
+  // Create the movie container div
+  let movieDiv = document.createElement("div");
+  movieDiv.classList.add("movie");
 
-    // Loop through the movie data and generate HTML elements
-    movies.forEach(movie => {
-      // Create a movie item element
-      const movieItem = document.createElement('div');
-      movieItem.classList.add('movie-item');
+  // Create the image element
+  let imageElement = document.createElement("img");
+  imageElement.src = movieItem.image;
+  imageElement.alt = movieItem.name;
 
-      // Create an image element
-      const image = document.createElement('img');
-      image.src = movie.image;
-      image.alt = movie.name;
+  // Create the name element
+  let nameElement = document.createElement("h3");
+  nameElement.textContent = movieItem.name;
 
-      // Create a heading element for the movie name
-      const heading = document.createElement('h3');
-      heading.textContent = movie.name;
+  // Create the category element
+  let categoryElement = document.createElement("p");
+  categoryElement.textContent = movieItem.category;
 
-      // Append the image and heading to the movie item
-      movieItem.appendChild(image);
-      movieItem.appendChild(heading);
+  // Append the elements to the movie container
+  movieDiv.appendChild(imageElement);
+  movieDiv.appendChild(nameElement);
+  movieDiv.appendChild(categoryElement);
 
-      // Append the movie item to the container
-      container.appendChild(movieItem);
-    });
+  // Append the movie container to the main container
+  container.appendChild(movieDiv);
+});
